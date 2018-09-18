@@ -213,12 +213,7 @@ module.exports = function (grunt) {
     stylelint: {
       options: {
         configFile: 'grunt/.stylelintrc',
-        formatter: 'string',
-        ignoreDisables: false,
-        failOnError: true,
-        outputFile: '',
-        reportNeedlessDisables: false,
-        syntax: ''
+        reportNeedlessDisables: false
       },
       dist: [
         'less/**/*.less'
